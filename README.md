@@ -9,7 +9,7 @@ A Python-based parental control system that monitors and limits children's compu
 
 ## 📁 Project Structure
 ```
-ChildMonitor/
+src_code/
 ├── child_program.py           # Main logic for enforcing usage limits
 ├── parent_program.py          # Tool for parents to edit schedule and sync
 ├── cloud_sync.py              # Shared module for Google Drive API
@@ -20,8 +20,8 @@ ChildMonitor/
 ├── usage_tracker.json         # Save the amount of time user used in a session
 ├── logs/
 │   ├── keylog.txt             # Keystroke log file
-│
-└── screenshots/               # Captured screen images
+│   ├── screenshots/           # Captured screen images
+└── ...
 ```
 
 ---
